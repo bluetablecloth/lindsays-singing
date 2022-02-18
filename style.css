@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  padding: 0 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.testimonial {
+  margin: 0.5rem 0;
+  width: 100%;
+  border: 2px solid black;
+  background-color: aqua;
+  aspect-ratio: 1 / 1.1;
+}
